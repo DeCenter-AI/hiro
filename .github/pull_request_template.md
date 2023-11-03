@@ -1,9 +1,8 @@
-#### Related Issue
-Resolves  <!-- Type '#' and issues will show up -->
-<!-- or describe the change--->
+### Description
+- [x] Resolves  <!-- Type '#' and issues will show up -->
 
 
-## Checklist
+### Checklist
 - [x] I have followed the repository's contribution guidelines.
 - [x] I have added necessary documentation or updated existing documentation.
 - [x] My code follows the established code style and formatting of the project.
@@ -14,4 +13,4 @@ Resolves  <!-- Type '#' and issues will show up -->
 
 <!--## Additional Information-->
 
-Reviewer: @Nasfame
+To be reviewed by: @Nasfame

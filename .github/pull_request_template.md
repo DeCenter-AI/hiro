@@ -1,5 +1,5 @@
 #### Related Issue
-Resolves #<issueId> <!-- Type '#' and issues will show up -->
+Resolves  <!-- Type '#' and issues will show up -->
 <!-- or describe the change--->
 
 

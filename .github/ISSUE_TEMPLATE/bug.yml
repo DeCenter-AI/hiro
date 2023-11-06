@@ -10,15 +10,15 @@ body:
       value: |
         Thanks for helping us improve! 🙏 Please answer these questions and provide as much information as possible about your problem.
 
-  - type: input
-    id: go-version
-    attributes:
-      label: Golang Version
-      description: What version of Go are you using (`go version`)?
-      render: text
-      placeholder: go version go1.20.7 darwin/arm64
-    validations:
-      required: true
+  # - type: input
+  #   id: go-version
+  #   attributes:
+  #     label: Golang Version
+  #     description: What version of Go are you using (`go version`)?
+  #     render: text
+  #     placeholder: go version go1.20.7 darwin/arm64
+  #   validations:
+  #     required: true
 
   - type: textarea
     id: reproduce-latest-release

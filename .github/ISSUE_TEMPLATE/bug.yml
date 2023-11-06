@@ -14,8 +14,8 @@ body:
     id: go-version
     attributes:
       label: Golang Version
-      description: What version of Go are you using (`go version`)?
-      value: |
+      description: What version of Go are you using (`go vtersion`)?
+      placeholder: |
         <pre>
         $ go version
 

@@ -1,4 +1,4 @@
-# https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository
+# https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository#creating-issue-forms
 name: Bugs
 description: The go command, standard library, or anything else
 labels: [ 'kind/bug', 'bug' ]
@@ -10,6 +10,14 @@ body:
       value: |
         Thanks for helping us improve! 🙏 Please answer these questions and provide as much information as possible about your problem.
 
+  - type: input
+    id: go-version
+    attributes:
+      label: Golang version
+      description: What version of Go are you using (`go version`)?
+      placeholder: ex. go version go1.20.7 darwin/arm64
+    validations:
+      required: true
   # - type: input
   #   id: go-version
   #   attributes:

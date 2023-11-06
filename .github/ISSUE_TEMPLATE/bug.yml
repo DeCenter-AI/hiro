@@ -16,8 +16,7 @@ body:
       label: Golang Version
       description: What version of Go are you using (`go version`)?
       render: text
-      placeholder: |
-        go version go1.20.7 darwin/arm64
+      placeholder: go version go1.20.7 darwin/arm64
     validations:
       required: true
 
@@ -57,3 +56,5 @@ body:
       label: "What did you see instead?"
     validations:
       required: true
+
+# https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-issue-forms
